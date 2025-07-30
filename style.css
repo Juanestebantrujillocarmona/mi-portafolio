@@ -1,0 +1,234 @@
+/* Estilos base */
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+header.hero {
+  background-color: #f5f5f5;
+  padding-bottom: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-banner {
+  background-image: url('https://images.pexels.com/photos/210592/pexels-photo-210592.jpeg?cs=srgb&dl=pexels-pixabay-210592.jpg&fm=jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 5rem 1rem 2rem;
+  color: rgb(255, 255, 255);
+  bac
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.hero-content p {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  max-width: 300px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.accordion button {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.accordion-content {
+  display: none;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.accordion-content.active {
+  display: block;
+}
+
+.accordion-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.accordion-content li {
+  margin-bottom: 1.5rem;
+}
+
+.accordion-content img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0.5rem 0;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  display: block;
+  margin: 10px auto;
+}
+
+.recomendados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.recomendado-item {
+  max-width: 250px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.recomendado-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.newsletter {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.newsletter input[type="email"] {
+  padding: 0.5rem;
+  width: 60%;
+  max-width: 300px;
+  margin-right: 0.5rem;
+}
+
+.newsletter button {
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cards, .recomendados {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-banner {
+    padding: 3rem 1rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .newsletter input[type="email"] {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .newsletter button {
+    width: 80%;
+  }
+  .img {
+    width: 200px;
+    height: 200px;
+  }
+  .product-img {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  display: block;
+  margin: 10px auto;
+}
+
+}
