@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">✨ Basic landingpage without any CMS <br><br>Just HTML and CSS required</p>
+<p align="left">Basic landing page without any CMS <br><br>Just HTML and CSS required ✨</p>
 
 ###
 
