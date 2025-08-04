@@ -1,16 +1,8 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+<h3 align="left">About this project</h3>
 
 ###
 
-<p align="left">My name is Juan Trujillo and I'm a Front End Developer from Colombia</p>
-
-###
-
-<h2 align="left">About me</h2>
-
-###
-
-<p align="left">✨ Creating bugs since<br>2021 — but also fixing them since day one!<br><br>📚 I'm currently learning<br>Advanced JavaScript, React, and sharpening my UI/UX design skills.<br><br>🎯 Goals<br>Build clean, responsive web apps, contribute to open source, and eventually lead front-end projects.<br><br>🎲 Fun fact<br>I once fixed a major website issue... by removing a single semicolon.</p>
+<p align="left">✨ Basic landingpage without any CMS <br><br>Just HTML and CSS required</p>
 
 ###
 
